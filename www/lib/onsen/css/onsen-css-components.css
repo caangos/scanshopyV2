@@ -1135,6 +1135,49 @@ h6 {
   -o-transition: none;
   transition: none;
 }
+.button--add{
+  padding: 0px 12px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0px;
+  display: block;
+  width: 70%;
+  text-align: center;
+  background: #EB822A;
+  border-radius: 0px;
+  position: relative;
+}
+.button-add:active{
+  background-color: #bbb;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 0.2;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button--redes-sociales{
+  display: block;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  padding: 0px;
+}
+.button--redes-sociales:active{
+  background-color: transparent;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 0.2;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
 .button--talla{
   padding: 2px 15px;
   font-size: 18px;

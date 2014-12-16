@@ -961,7 +961,7 @@ ons-page.friends .person-image img {
 
 /*Producto Interno Styles*/
 .app-page .app-page-product {
-  padding: 25px 20px;
+  padding: 25px 20px 50px;
   font-size: 15px;
   line-height: 1.15;
 }
@@ -981,7 +981,6 @@ ons-page.friends .person-image img {
 .app-page .app-page-product ons-col  .detail span {
   text-decoration:line-through;
   color: #e5990e;
-
 }
 .app-page .app-page-product ons-col  .detail  p.descuento{
   color: #9E9E9E;
@@ -1005,7 +1004,71 @@ ons-page.friends .person-image img {
 .app-page .app-page-product ons-row .espacio-tallas{
   padding: 10px 0;
 }
+.app-page .app-page-product ons-col.redes{
+  text-align: center;
+}
+.app-page .app-page-product h3{
+  margin-top: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #555;
+}
+.app-page .app-page-product .share{
+  margin-bottom: 15px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: #9C9C9C;
+}
+.app-page .app-page-product .information{
+  margin-bottom: 30px;
+  margin-top: -5px;
+  font-size: 10px;
+  color: #9C9C9C;
+}
+.app-page .redes-sociales{
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+.app-page .app-page-product ons-row ons-col p.texto-cronometro{
+  color: #9E9E9E;
+  font-size: 10px;
+  text-align: right;
+  font-weight: normal;
+  margin: 0px;
+}
+.app-page .app-page-product ons-row ons-col p.cronometro-producto{
+  color: #9E9E9E;
+  font-size: 14px;
+  text-align: right;
+  font-weight: normal;
+  margin-top: 3px;
+}
 /*Fin Producto Internos Styles*/
+/*Brands styles*/
+
+.app-page-brands ons-row ons-col p.brand{
+  color: #303030;
+  font-size: 13px;
+  text-align: left;
+  font-weight: normal;
+  margin: 0px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+
+}
+.app-page-brands ons-row ons-col p.fecha-fin{
+  color: #E56F0F;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 3px;
+  margin: 0px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+/*Fin Brands styles*/
 /* Main Image brands */
 .app-page-brands {
   margin-top: 75px;
@@ -1023,18 +1086,9 @@ ons-page.friends .person-image img {
 }
 .app-page-brands ons-col ons-button p {
   width: 100%;
-  font-size: 36px;
-  letter-spacing: 1px;
   height: 24px;
-  position: absolute;
-  left: -10px;
+  position: relative;
   top: 50%;
-  margin-top: 13px;
-  text-align: right;
-  text-transform: uppercase;
-  font-weight: normal;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  color: rgba(255,255,255, 0.8);
 }
 /*Interest text*/
 .interest{

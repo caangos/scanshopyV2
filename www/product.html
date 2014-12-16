@@ -5,7 +5,7 @@
       <ons-back-button><ons-icon icon="ion-chevron-left" style="color: white; font-size: 24px;font-weight: 200;padding-top: 28px" fixed-width="false"> SCANSHOPY</ons-icon></ons-back-button>
     </div>
     <div class="right" style="margin-top: 32px; margin-left: 10px;">
-      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/user.png" ></ons-toolbar-button>
+      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/cloud.png" ></ons-toolbar-button>
       <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/bag.png"></ons-toolbar-button>
     </div>
   </ons-toolbar>
@@ -49,13 +49,27 @@
         </ons-col>
       </ons-row>
       <h3>SHARE THIS ITEM</h3>
-      <p>Share & get $25 for every friend who joins Gifts & make purchases</p>
+      <p class="share">Share & get $25 for every friend who joins Gifts & make purchases</p>
+      <div class="redes-sociales">
+        <ons-row>
+          <ons-col class="redes" ><ons-button ng-click="gallery.pushPage('brands.html');" modifier="redes-sociales"><img width="60%" src="img/redes-sociales/facebook.png" ></ons-button></ons-col>
+          <ons-col class="redes" ><ons-button ng-click="gallery.pushPage('brands.html');" modifier="redes-sociales"><img width="60%" src="img/redes-sociales/pinterest.png" ></ons-button></ons-col>
+          <ons-col class="redes" ><ons-button ng-click="gallery.pushPage('brands.html');" modifier="redes-sociales"><img width="60%" src="img/redes-sociales/twitter.png" ></ons-button></ons-col>
+          <ons-col class="redes" ><ons-button ng-click="gallery.pushPage('brands.html');" modifier="redes-sociales"><img width="60%" src="img/redes-sociales/correo.png" ></ons-button></ons-col>
+        </ons-row>
+      </div>
+      <h3>STYLE INFORMATION</h3>
+      <p class="information">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       <ons-row>
-        <ons-col><img src="img/redes-sociales/" ></ons-col>
-        <ons-col></ons-col>
-        <ons-col></ons-col>
-        <ons-col></ons-col>
+        <ons-col>
+          <ons-button ng-click="gallery.pushPage('brands.html');" modifier="add"><div style="color:#FFF;font-weight: normal;margin: -8px;">ADD</div></ons-button>
+        </ons-col>
+        <ons-col>
+          <p class="texto-cronometro">remaining time for this sale</p>
+          <p class="cronometro-producto"><i class="fa fa-clock-o"></i> 30:23:00</p>
+        </ons-col>
       </ons-row>
+    </div>
     </div>
 
   </div>
