@@ -1,0 +1,67 @@
+<ons-page>
+  <ons-toolbar modifier="internas">
+
+    <div class="left">
+      <ons-back-button><ons-icon icon="ion-chevron-left" style="color: white; font-size: 24px;font-weight: 200;padding-top: 28px" fixed-width="false"> SCANSHOPY</ons-icon></ons-back-button>
+    </div>
+    <div class="right" style="margin-top: 32px; margin-left: 10px;">
+      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/user.png" ></ons-toolbar-button>
+      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/bag.png"></ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <div class="app-page">
+    <div class="app-hero">
+      <ul rn-carousel rn-carousel-indicator>
+        <li><img ng-src="img/sales/sales1.png" ></li>
+        <li><img ng-src="img/sales/sales2.png" ></li>
+        <li><img ng-src="img/sales/sales1.png" ></li>
+        <li><img ng-src="img/sales/sales2.png" ></li>
+      </ul>
+
+    <div class="app-page-product">
+      <ons-row >
+        <ons-col width="70%">
+          <div class="price">
+            <p class="titulo">Stradivarius</p>
+            <p class="detalle">Leader Jacket Slim Fit Leader </p>
+            <ons-button ng-click="gallery.pushPage('brands.html');" modifier="scanshoped"><div style="color:#FFF;font-weight: normal;margin: -8px;">SCANSHOPED</div></ons-button>
+            <ons-row class="espacio-tallas">
+              <ons-col width="35px">
+                <ons-button ng-click="gallery.pushPage('brands.html');" modifier="talla"><div style="color:#868686;font-weight: normal;margin: -8px;">S</div></ons-button>
+              </ons-col>
+              <ons-col width="35px">
+                <ons-button ng-click="gallery.pushPage('brands.html');" modifier="talla"><div style="color:#868686;font-weight: normal;margin: -8px;">M</div></ons-button>
+              </ons-col>
+              <ons-col width="35px">
+                <ons-button ng-click="gallery.pushPage('brands.html');" modifier="talla"><div style="color:#868686;font-weight: normal;margin: -8px;">L</div></ons-button>
+              </ons-col>
+            </ons-row>
+          </div>
+        </ons-col>
+        <ons-col width="30%">
+          <div class="detail">
+                    <span>
+                      <p class="descuento">$46.00</p>
+                    </span>
+            <p class="precio">$36.00</p>
+          </div>
+        </ons-col>
+      </ons-row>
+      <h3>SHARE THIS ITEM</h3>
+      <p>Share & get $25 for every friend who joins Gifts & make purchases</p>
+      <ons-row>
+        <ons-col></ons-col>
+        <ons-col></ons-col>
+        <ons-col></ons-col>
+        <ons-col></ons-col>
+      </ons-row>
+    </div>
+
+  </div>
+  </div>
+  <ons-bottom-toolbar  style="text-align: center; line-height: 44px"  ng-click="menu.toggle()"><img height="90%" src="../img/iconos/barcode.png"></ons-bottom-toolbar>
+  </ons-page>
+
+
+

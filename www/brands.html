@@ -1,0 +1,51 @@
+<ons-page>
+  <ons-toolbar modifier="internas">
+    <div class="left"><h3>SCANSHOPY</h3></div>
+    <div class="right" style="margin-top: 32px; margin-left: 10px;">
+      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/user.png" ></ons-toolbar-button>
+      <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/bag.png"></ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+    <div class="app-page">
+      <div class="app-page-brands">
+
+        <div class="brands">
+          <ons-button ng-click="gallery.pushPage('sales.html');" modifier="gotosales"><div style="color:#E56F0F;font-weight: normal;margin: -8px;">GO TO SALES</div></ons-button>
+        </div>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('login.html');">
+              <img src="img/brands/stradivarius.png">
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" >
+              <img src="img/brands/tommy.png">
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" >
+              <img src="img/brands/nike.png">
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" >
+              <img src="img/brands/lacoste.png">
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+      </div>
+    </div>
+    <br><br>
+  <ons-bottom-toolbar  style="text-align: center; line-height: 44px"><img height="90%" src="../img/iconos/barcode.png"></ons-bottom-toolbar>
+  </ons-page>
+
+
+

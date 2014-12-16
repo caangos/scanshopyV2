@@ -1,0 +1,45 @@
+<ons-navigator animation="slide" var="gallery">
+
+<ons-page>
+  <ons-toolbar modifier="scanshopy">
+    <div class="center">
+      <h1>SCANSHOPY</h1>
+    </div>
+  </ons-toolbar>
+
+  <div class="login-page" ng-controller="NotificationController" >
+    <div class="login-form" >
+      <div class="form-wrapper" >
+        <input type="email" class="text-input--underbar" placeholder="Email" value="">
+        <input type="password" class="text-input--underbar" placeholder="Password" value="">
+        <br>
+        <ons-button modifier="large" class="login-button" ng-click="gallery.pushPage('select.html', { animation : 'slide' })">Log In</ons-button>
+        <p> You can also log in with:</p>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="large" class="facebook-button"><i class="fa fa-facebook-square"></i> Facebook</ons-button>
+          </ons-col>
+          <ons-col width="15px"></ons-col>
+          <ons-col>
+            <ons-button modifier="large" class="twitter-button"><i class="fa fa-twitter"></i> Twitter</ons-button>
+          </ons-col>
+        </ons-row>
+        <p>Don`t have an account yet?</p>
+        <ons-button modifier="large" class="signup-button" ng-click="gallery.pushPage('signup.html', { animation : 'lift' })"> Sing Up</ons-button>
+        <ons-button modifier="quiet" class="forgot-password" ng-click="prompt()"><i class="fa fa-key"></i> Forgot password?</ons-button>
+      </div>
+    </div>
+    <div class="blur">
+      <img src="img/bg1.png" class="bg">
+    </div>
+  </div>
+
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <filter id="blur">
+     <feGaussianBlur stdDeviation="10" />
+     </filter>
+  </svg>
+
+
+</ons-page>
+</ons-navigator>
