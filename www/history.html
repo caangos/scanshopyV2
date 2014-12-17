@@ -1,57 +1,60 @@
 <ons-navigator animation="slide" var="gallery">
   <ons-page>
 
-    <ons-toolbar>
-      <div class="left">
-        <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+    <ons-toolbar modifier="internas">
+      <div class="left"><h3>SCANSHOPY</h3></div>
+      <div class="right" style="margin-top: 32px; margin-left: 10px;">
+        <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/cloud.png" ></ons-toolbar-button>
+        <ons-toolbar-button ng-click="menu.toggle()"><img height="70%" src="img/iconos/cart.png"></ons-toolbar-button>
       </div>
-      <div class="center">Gallery</div>
     </ons-toolbar>
-
     <div class="app-page">
-      <div class="app-page-gallery three-cols">      
+
+      <div class="app-page-gallery three-cols">
+        <p><ons-icon icon="ion-images" style="color: #E56F0F; font-size: 35px;font-weight: 200;" fixed-width="false"> </ons-icon>  Scanned/Scanshoped Products</p>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/01.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/02.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/03.png"></ons-button></ons-col>
+          <ons-col><ons-button ><i class="fa fa-times"></i></ons-button><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/12.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button ><i class="fa fa-times"></i></ons-button><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/13.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button ><i class="fa fa-times"></i></ons-button><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/14.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
         </ons-row>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/04.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/05.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/06.png"></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/15.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/16.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/17.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
         </ons-row>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/07.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/08.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/09.png"></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/18.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/15.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/16.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
         </ons-row>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/10.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/11.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/05.png"></ons-button></ons-col>
-        </ons-row>   
-        <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/02.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/03.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/04.png"></ons-button></ons-col>
-        </ons-row>  
-        <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/01.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/02.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/03.png"></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/17.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/14.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/13.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
         </ons-row>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/04.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/05.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/06.png"></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/12.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/18.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/15.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
         </ons-row>
         <ons-row>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/07.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/08.png"></ons-button></ons-col>
-          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/09.png"></ons-button></ons-col>
-        </ons-row> 
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/12.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/14.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/17.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/13.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/16.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/18.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo.html');"><img  src="img/gallery/12.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo2.html');"><img src="img/gallery/13.png"><p class="scanshopy">Scanshopy</p></ons-button></ons-col>
+          <ons-col><ons-button modifier="clean" ng-click="gallery.pushPage('photo3.html');"><img src="img/gallery/16.png"><p class="scanshoped">Scanshoped</p></ons-button></ons-col>
+        </ons-row>
       </div>
     </div>
+    <ons-bottom-toolbar  style="text-align: center; line-height: 44px"><img height="90%" src="../img/iconos/barcode.png"></ons-bottom-toolbar>
 
   </ons-page>
-</ons-navigator>  
+</ons-navigator>

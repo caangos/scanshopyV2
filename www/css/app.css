@@ -453,6 +453,34 @@ img.bg {
   width: 100%;
   height: auto;
 }
+.app-page .app-page-gallery ons-button p.scanshoped{
+  position: absolute;
+  bottom: 0px;
+  padding: 0;
+  width: 100%;
+  background: rgba(229,111,15, 0.8);
+  padding: 4px 0px !important;
+  font-size: 13px;
+  color: #fff !important;
+}
+.app-page .app-page-gallery ons-button p.scanshopy{
+  position: absolute;
+  bottom: 0px;
+  padding: 0;
+  width: 100%;
+  background: rgba(255,255,255, 0.8);
+  padding: 4px 0px !important;
+  font-size: 13px;
+  color: #E56F0F !important;
+}
+.app-page .app-page-gallery.three-cols{
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+.app-page .app-page-gallery.three-cols p{
+  padding: 10px;
+  color: #858585;
+}
 .app-page .app-page-gallery.three-cols .ons-col-inner {
   width: 32.666%;
   margin-bottom: 2%;
